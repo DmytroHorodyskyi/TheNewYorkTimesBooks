@@ -11,7 +11,7 @@ import SwiftUI
 struct TheNewYorkTimesBooksApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CategoriesContentView()
         }
     }
 }

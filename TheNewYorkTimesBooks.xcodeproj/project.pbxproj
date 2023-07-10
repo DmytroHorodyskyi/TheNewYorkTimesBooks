@@ -7,18 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7452DF982A5B36E5001C3784 /* BooksObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7452DF972A5B36E5001C3784 /* BooksObject.swift */; };
+		7452DF9B2A5B3768001C3784 /* CategoriesObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7452DF9A2A5B3768001C3784 /* CategoriesObject.swift */; };
+		7452DF9D2A5B3E79001C3784 /* CategoriesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7452DF9C2A5B3E79001C3784 /* CategoriesManager.swift */; };
+		7452DF9F2A5B4454001C3784 /* BooksManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7452DF9E2A5B4454001C3784 /* BooksManager.swift */; };
+		7493D7092A55B09800247E8F /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7493D7082A55B09800247E8F /* CategoryView.swift */; };
+		7493D70B2A55B0A300247E8F /* BookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7493D70A2A55B0A300247E8F /* BookView.swift */; };
+		7493D70D2A55B0B500247E8F /* DescriptionBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7493D70C2A55B0B500247E8F /* DescriptionBookView.swift */; };
+		7493D70F2A55D90100247E8F /* BooksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7493D70E2A55D90100247E8F /* BooksViewModel.swift */; };
+		7493D7122A57D0DE00247E8F /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 7493D7112A57D0DE00247E8F /* Realm */; };
+		7493D7142A57D0DE00247E8F /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7493D7132A57D0DE00247E8F /* RealmSwift */; };
+		7493D7162A57D2AB00247E8F /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7493D7152A57D2AB00247E8F /* SafariView.swift */; };
 		749BEFC12A53F03700437177 /* TheNewYorkTimesBooksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749BEFC02A53F03700437177 /* TheNewYorkTimesBooksApp.swift */; };
-		749BEFC32A53F03700437177 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749BEFC22A53F03700437177 /* ContentView.swift */; };
+		749BEFC32A53F03700437177 /* CategoriesContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749BEFC22A53F03700437177 /* CategoriesContentView.swift */; };
 		749BEFC52A53F03900437177 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 749BEFC42A53F03900437177 /* Assets.xcassets */; };
 		749BEFC82A53F03900437177 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 749BEFC72A53F03900437177 /* Preview Assets.xcassets */; };
+		749BEFD52A5405EC00437177 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749BEFD42A5405EC00437177 /* Categories.swift */; };
+		749BEFD72A54060900437177 /* Books.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749BEFD62A54060900437177 /* Books.swift */; };
+		749BEFDA2A540C9700437177 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 749BEFD92A540C9700437177 /* Alamofire */; };
+		749BEFDC2A540E3C00437177 /* CategoriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749BEFDB2A540E3C00437177 /* CategoriesViewModel.swift */; };
+		749BEFDE2A559FDB00437177 /* BooksContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749BEFDD2A559FDB00437177 /* BooksContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7452DF962A5AD6B7001C3784 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7452DF972A5B36E5001C3784 /* BooksObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksObject.swift; sourceTree = "<group>"; };
+		7452DF9A2A5B3768001C3784 /* CategoriesObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesObject.swift; sourceTree = "<group>"; };
+		7452DF9C2A5B3E79001C3784 /* CategoriesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesManager.swift; sourceTree = "<group>"; };
+		7452DF9E2A5B4454001C3784 /* BooksManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksManager.swift; sourceTree = "<group>"; };
+		7493D7082A55B09800247E8F /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		7493D70A2A55B0A300247E8F /* BookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookView.swift; sourceTree = "<group>"; };
+		7493D70C2A55B0B500247E8F /* DescriptionBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionBookView.swift; sourceTree = "<group>"; };
+		7493D70E2A55D90100247E8F /* BooksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksViewModel.swift; sourceTree = "<group>"; };
+		7493D7152A57D2AB00247E8F /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 		749BEFBD2A53F03700437177 /* TheNewYorkTimesBooks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheNewYorkTimesBooks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		749BEFC02A53F03700437177 /* TheNewYorkTimesBooksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheNewYorkTimesBooksApp.swift; sourceTree = "<group>"; };
-		749BEFC22A53F03700437177 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		749BEFC22A53F03700437177 /* CategoriesContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesContentView.swift; sourceTree = "<group>"; };
 		749BEFC42A53F03900437177 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		749BEFC72A53F03900437177 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		749BEFD42A5405EC00437177 /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
+		749BEFD62A54060900437177 /* Books.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Books.swift; sourceTree = "<group>"; };
+		749BEFDB2A540E3C00437177 /* CategoriesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewModel.swift; sourceTree = "<group>"; };
+		749BEFDD2A559FDB00437177 /* BooksContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,12 +56,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7493D7142A57D0DE00247E8F /* RealmSwift in Frameworks */,
+				7493D7122A57D0DE00247E8F /* Realm in Frameworks */,
+				749BEFDA2A540C9700437177 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7452DF992A5B3724001C3784 /* DBManager */ = {
+			isa = PBXGroup;
+			children = (
+				7452DF972A5B36E5001C3784 /* BooksObject.swift */,
+				7452DF9A2A5B3768001C3784 /* CategoriesObject.swift */,
+				7452DF9C2A5B3E79001C3784 /* CategoriesManager.swift */,
+				7452DF9E2A5B4454001C3784 /* BooksManager.swift */,
+			);
+			path = DBManager;
+			sourceTree = "<group>";
+		};
 		749BEFB42A53F03700437177 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +95,12 @@
 		749BEFBF2A53F03700437177 /* TheNewYorkTimesBooks */ = {
 			isa = PBXGroup;
 			children = (
+				7452DF962A5AD6B7001C3784 /* Info.plist */,
 				749BEFC02A53F03700437177 /* TheNewYorkTimesBooksApp.swift */,
-				749BEFC22A53F03700437177 /* ContentView.swift */,
+				7452DF992A5B3724001C3784 /* DBManager */,
+				749BEFCF2A54051700437177 /* Model */,
+				749BEFCE2A54050600437177 /* View */,
+				749BEFD12A54052700437177 /* ViewModel */,
 				749BEFC42A53F03900437177 /* Assets.xcassets */,
 				749BEFC62A53F03900437177 /* Preview Content */,
 			);
@@ -65,6 +113,37 @@
 				749BEFC72A53F03900437177 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		749BEFCE2A54050600437177 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				749BEFC22A53F03700437177 /* CategoriesContentView.swift */,
+				7493D7082A55B09800247E8F /* CategoryView.swift */,
+				749BEFDD2A559FDB00437177 /* BooksContentView.swift */,
+				7493D70A2A55B0A300247E8F /* BookView.swift */,
+				7493D7152A57D2AB00247E8F /* SafariView.swift */,
+				7493D70C2A55B0B500247E8F /* DescriptionBookView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		749BEFCF2A54051700437177 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				749BEFD42A5405EC00437177 /* Categories.swift */,
+				749BEFD62A54060900437177 /* Books.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		749BEFD12A54052700437177 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				749BEFDB2A540E3C00437177 /* CategoriesViewModel.swift */,
+				7493D70E2A55D90100247E8F /* BooksViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +162,11 @@
 			dependencies = (
 			);
 			name = TheNewYorkTimesBooks;
+			packageProductDependencies = (
+				749BEFD92A540C9700437177 /* Alamofire */,
+				7493D7112A57D0DE00247E8F /* Realm */,
+				7493D7132A57D0DE00247E8F /* RealmSwift */,
+			);
 			productName = TheNewYorkTimesBooks;
 			productReference = 749BEFBD2A53F03700437177 /* TheNewYorkTimesBooks.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +195,10 @@
 				Base,
 			);
 			mainGroup = 749BEFB42A53F03700437177;
+			packageReferences = (
+				749BEFD82A540C9700437177 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				7493D7102A57D0DE00247E8F /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = 749BEFBE2A53F03700437177 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +225,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				749BEFC32A53F03700437177 /* ContentView.swift in Sources */,
+				7493D70D2A55B0B500247E8F /* DescriptionBookView.swift in Sources */,
+				7452DF982A5B36E5001C3784 /* BooksObject.swift in Sources */,
+				7493D7162A57D2AB00247E8F /* SafariView.swift in Sources */,
+				749BEFD72A54060900437177 /* Books.swift in Sources */,
+				749BEFC32A53F03700437177 /* CategoriesContentView.swift in Sources */,
+				7493D70F2A55D90100247E8F /* BooksViewModel.swift in Sources */,
+				749BEFDC2A540E3C00437177 /* CategoriesViewModel.swift in Sources */,
+				7452DF9F2A5B4454001C3784 /* BooksManager.swift in Sources */,
+				7493D7092A55B09800247E8F /* CategoryView.swift in Sources */,
 				749BEFC12A53F03700437177 /* TheNewYorkTimesBooksApp.swift in Sources */,
+				749BEFD52A5405EC00437177 /* Categories.swift in Sources */,
+				749BEFDE2A559FDB00437177 /* BooksContentView.swift in Sources */,
+				7452DF9D2A5B3E79001C3784 /* CategoriesManager.swift in Sources */,
+				7452DF9B2A5B3768001C3784 /* CategoriesObject.swift in Sources */,
+				7493D70B2A55B0A300247E8F /* BookView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,11 +376,13 @@
 				DEVELOPMENT_TEAM = HPU59MA6X6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TheNewYorkTimesBooks/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,11 +407,13 @@
 				DEVELOPMENT_TEAM = HPU59MA6X6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TheNewYorkTimesBooks/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -344,6 +449,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7493D7102A57D0DE00247E8F /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.41.0;
+			};
+		};
+		749BEFD82A540C9700437177 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7493D7112A57D0DE00247E8F /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7493D7102A57D0DE00247E8F /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		7493D7132A57D0DE00247E8F /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7493D7102A57D0DE00247E8F /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		749BEFD92A540C9700437177 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 749BEFD82A540C9700437177 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 749BEFB52A53F03700437177 /* Project object */;
 }
